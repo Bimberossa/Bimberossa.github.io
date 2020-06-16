@@ -281,7 +281,7 @@
     right: 10px;
     top: 10px;
     border: 1px solid #2c71b8;
-    background-image: url('images/icon2.png');
+    background-image: url('images/icon(8).png');
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -304,7 +304,7 @@
   }
   .image__like:hover {
     background-color: #2c71b8;
-    background-image: url('images/icon5.png');
+    background-image: url('images/icon(7).png');
     cursor: pointer;
   }
   .body__img::before, .body__img::after{
