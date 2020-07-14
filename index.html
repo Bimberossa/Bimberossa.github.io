@@ -10,8 +10,10 @@
 	<title>Shop-project</title>
 </head>
 <body>
+
 	<header class="header">
 		<div class="container">
+			
 			<div class="row">
 				<div class="col-md-3">
 					<div class="logo">
@@ -59,10 +61,51 @@
 		
 	</header>
 	<main class="main">Main</main>
-			<div class="container">
+	<div class="slider">
+		<div class="slideshow">
+						
+			<div class="slidethree">
+					<p>Slide #3</p>
+			</div>
+		</div>
+			<a class="prev" onclick="plusSlides(-1)"></a>
+			<a class="next" onclick="plusSlides(1)"></a>
+		</div>
+	</div>
+	
+		<div class="container">
+				
+				
 			<div class="main__row">
 				<div class="col-md-3">
-					<aside class="filter">Filter</aside>
+					<div class="filter">
+						<form action="">
+							<div class="devicetype">
+								<h6>Device Type</h6>
+								<div class="category"><input type="checkbox" id="checkone"><label for="checkone">Laptop</label></div>
+								<div class="category"><input type="checkbox" id="checktwo"><label for="checktwo">Tablet</label></div>
+							</div>
+							<div class="colorsort">
+								<h6>Color</h6>
+								<div class="category"><input type="checkbox" id="checkthree"><label for="checkthree">Black</label></div>
+								<div class="category"><input type="checkbox" id="checkfour"><label for="checkfour">Red</label></div>
+								<div class="category"><input type="checkbox" id="checkfive"><label for="checkfive">Green</label></div>
+								<div class="category"><input type="checkbox" id="checksix"><label for="checksix">Blue</label></div>
+								<div class="category"><input type="checkbox" id="checkseven"><label for="checkseven">Orange</label></div>
+							</div>
+							<div class="ram">                      
+								<h6>Ram</h6>
+								<div class="category"><input type="checkbox" id="checkeight"><label for="checkeight">1GB</label></div>
+								<div class="category"><input type="checkbox" id="checknine"><label for="checknine">2GB</label></div>
+								<div class="category"><input type="checkbox" id="checkten"><label for="checkten">4GB</label></div>
+								<div class="category"><input type="checkbox" id="checkeleven"><label for="checkeleven">6GB</label></div>
+								<div class="category"><input type="checkbox" id="checktwelth"><label for="checktwelth">8GB</label></div>
+								<a href="" class="showmore">Show more options ...</a>
+								<input type="submit" value="Submit" class="submit">
+							</div>
+						</form>
+					</div>
+					
 				</div>
 				<div class="col-md-9">
 					<section class="products">
